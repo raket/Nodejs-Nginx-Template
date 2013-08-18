@@ -1,0 +1,24 @@
+{
+  "name": "Nodejs-Nginx-Template",
+  "version": "0.1.0",
+  "description": "Template project for NodeJS and Nginx running on Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/raket/Nodejs-Nginx-Template.git"
+  },
+  "keywords": [
+    "Nginx",
+    "Heroku"
+  ],
+  "author": "Marcus Dalgren",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "5dd0650fb705cd293c1589c524e2acbda60742c3",
+  "bugs": {
+    "url": "https://github.com/raket/Nodejs-Nginx-Template/issues"
+  }
+}
