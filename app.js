@@ -1,4 +1,3 @@
-/*
 var http = require('http');
 http.createServer(function (req, res) {
 	res.writeHead(200, {'Content-Type': 'text/plain'});
@@ -6,7 +5,8 @@ http.createServer(function (req, res) {
 }).listen('/tmp/node.sock', function() {
 	console.log('Server running on node.sock');
 });
- */
+
+/*
 var express = require('express');
 var app = express();
 app.get('/hello', function(req, res){
@@ -22,4 +22,4 @@ app.get("/", function(req, res) {
 	res.end(body);
 });
 app.listen('/tmp/node.sock');
-console.log('Listening on nginx socket');
+console.log('Listening on nginx socket');*/
